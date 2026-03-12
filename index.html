@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студия Дизайна ARDO-DESIGN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="container header-inner">
+        <a href="#" class="logo-link">
+            <img src="logo.png" alt="Логотип студии" class="logo">
+        </a>
+
+        <!-- Бургер-меню для мобильных -->
+        <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav>
+            <a href="#about">О нас</a>
+            <a href="#projects">Проекты</a>
+            <a href="#pricing">Цены</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+        <button class="header-btn">Связаться</button>
+    </div>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+    <div class="hero-content container">
+        <h1>Дизайн интерьера и ремонт квартир под ключ</h1>
+        <p>Создаем интерьеры, в которые вы влюбитесь</p>
+        <button class="hero-btn">Рассчитать стоимость</button>
+    </div>
+    <a href="#about" class="scroll-down">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 13l3 3 3-3M7 7l3 3 3-3"/>
+        </svg>
+    </a>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="container">
+        <h2>О нас</h2>
+        <p>Мы наделяем свои проекты душой, способностью вызывать у человека эмоции. Мы делаем то, что по-настоящему любим!</p>
+
+        <div class="about-images">
+            <div class="about-image-item">
+                <img src="img/team-1.jpg" alt="Команда студии" class="about-img">
+            </div>
+            <div class="about-image-item">
+                <img src="img/team-2.jpg" alt="Команда студии" class="about-img">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES (БЛОК "Сделаем интерьер, в который Вы влюбитесь!") -->
+<section id="services" class="services">
+    <div class="container">
+        <h2>Сделаем интерьер, в который Вы влюбитесь!</h2>
+        <p class="services-subtitle">Каждый день мы упорно работаем, чтобы сделать жизнь наших клиентов лучше и счастливее!</p>
+
+        <div class="services-grid">
+            <!-- Этап 1 -->
+            <div class="service-item">
+                <div class="service-icon">
+                    <img src="img/icon-design.jpeg" alt="Дизайн" class="service-icon-img">
+                </div>
+                <h3>Создадим уникальный дизайн</h3>
+                <p>Изучим ваши предпочтения и создадим 3D-модель будущего интерьера. А если не понравится с первого раза? Переделаем! Количество корректировок не ограничено.</p>
+            </div>
+
+            <!-- Этап 2 -->
+            <div class="service-item">
+                <div class="service-icon">
+                    <img src="img/icon-drawing.jpg" alt="Чертежи" class="service-icon-img">
+                </div>
+                <h3>Подготовим чертежи для строителей</h3>
+                <p>Подробные чертежи помогут поставить задачу строителям и не упустить ни одной детали. А вам получить точную смету на ремонт и не переплачивать за дополнительные работы.</p>
+            </div>
+
+            <!-- Этап 3 -->
+            <div class="service-item">
+                <div class="service-icon">
+                    <img src="img/icon-materials.jpg" alt="Материалы" class="service-icon-img">
+                </div>
+                <h3>Поможем подобрать материалы и мебель</h3>
+                <p>Учтем ваши пожелания по бюджету и подберем реальные материалы, которые есть в продаже. Сделаем лучшее предложение от наших проверенных годами поставщиков.</p>
+            </div>
+
+            <!-- Этап 4 -->
+            <div class="service-item">
+                <div class="service-icon">
+                    <img src="img/icon-construction.jpeg" alt="Стройка" class="service-icon-img">
+                </div>
+                <h3>Проконтролируем все этапы стройки</h3>
+                <p>Каждую неделю будем выезжать на объект и контролировать отделочные работы, чтобы строители не отходили от проекта. В итоге вы получите интерьер как задумано по дизайну.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <div class="container">
+        <h2>Наши проекты</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="img/project1.jpg" alt="Дом в курортном районе">
+                <h3>ДОМ В СОЛНЕЧНОМ</h3>
+                <p>Площадь: 950 м²</p>
+            </div>
+            <div class="project-card">
+                <img src="img/project2.jpg" alt="Квартира ЖК Созидатели">
+                <h3>ЖК Созидатели</h3>
+                <p>Площадь: 98 м²</p>
+            </div>
+            <div class="project-card">
+                <img src="img/project3.jpg" alt="Квартира ЖК Лахта ПЛаза">
+                <h3>ЖК Лахта Плаза</h3>
+                <p>Площадь: 130 м²</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+    <div class="container">
+        <h2>Отзывы наших клиентов</h2>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <p>"Отличная работа! Всё сделали в срок и красиво. Очень довольны результатом!"</p>
+                <p class="review-author">— Анна С.</p>
+            </div>
+            <div class="review-card">
+                <p>"Сделали проект квартиры мечты. Всё учли, помогли с материалами. Спасибо!"</p>
+                <p class="review-author">— Михаил П.</p>
+            </div>
+            <div class="review-card">
+                <p>"Профессиональный подход, креативные решения. Рекомендую!"</p>
+                <p class="review-author">— Елена В.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+    <div class="container">
+        <h2>Тарифы на основные пакеты</h2>
+        <p class="pricing-subtitle">Выберите тариф, который подходит Вам, свяжитесь с нами и закажите дизайн-проект.</p>
+
+        <div class="pricing-grid">
+            <!-- Тариф 1: Технический -->
+            <div class="price-card">
+                <h3 class="price-card__title">Технический дизайн-проект</h3>
+                <p class="price-card__value">3 500 ₽/м²</p>
+                <ul class="price-card__features">
+                    <li>Обмерный план</li>
+                    <li>Планировочное решение</li>
+                    <li>Строительные чертежи* (ограниченный пакет)</li>
+                    <li>Авторский надзор</li>
+                    <li>Декорирование</li>
+                </ul>
+                <button class="price-card__btn">Заказать проект!</button>
+            </div>
+
+            <!-- Тариф 2: Дизайн-проект и комплектация (центральный) -->
+            <div class="price-card price-card--popular">
+                <h3 class="price-card__title">Дизайн-проект и комплектация</h3>
+                <p class="price-card__value">5 000 ₽/м²</p>
+                <ul class="price-card__features">
+                    <li>Обмерный план</li>
+                    <li>Планировочное решение</li>
+                    <li>Строительные чертежи</li>
+                    <li>3D визуализации</li>
+                    <li>Комплектация объекта (смета)</li>
+                    <li>Авторский надзор</li>
+                    <li>Декорирование</li>
+                </ul>
+                <button class="price-card__btn">Заказать проект!</button>
+            </div>
+
+            <!-- Тариф 3: Премиум -->
+            <div class="price-card">
+                <h3 class="price-card__title">Премиум дизайн-проект</h3>
+                <p class="price-card__value">8 000 ₽/м²</p>
+                <ul class="price-card__features">
+                    <li>Обмерный план</li>
+                    <li>Планировочное решение</li>
+                    <li>Строительные чертежи</li>
+                    <li>3D, 4D* визуализации</li>
+                    <li>Комплектация объекта (смета)</li>
+                    <li>Выезд на подбор материалов</li>
+                    <li>Авторский надзор</li>
+                    <li>Контроль поставки</li>
+                    <li>Декорирование</li>
+                </ul>
+                <button class="price-card__btn">Заказать проект!</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACTS -->
+<footer id="contacts">
+    <div class="container">
+        <h2>Контакты</h2>
+
+        <div class="footer-info">
+            <div class="footer-item">
+                <span class="footer-icon">📍</span>
+                <div class="footer-text">
+                    <strong>Офис:</strong><br>
+                    г. Санкт-Петербург, улица Большая Разночинная, д.32, литер Л, офис 19-Н
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <span class="footer-icon">📞</span>
+                <div class="footer-text">
+                    <strong>Телефон:</strong><br>
+                    <a href="tel:+79910073093">+7 (991) 007-30-93</a>
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <span class="footer-icon">✉️</span>
+                <div class="footer-text">
+                    <strong>Email:</strong><br>
+                    <a href="mailto:topdesignspb@yandex.ru">topdesignspb@yandex.ru</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Подпись о непубличной оферте -->
+        <div class="footer-disclaimer">
+            <p>Вся информация, представленная на сайте, носит ознакомительный характер и не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса РФ.</p>
+            <p class="footer-copyright">© 2026 Студия дизайна ARDO-DESIGN. Все права защищены.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Кнопка "Наверх" -->
+<a href="#" class="scrollToTop" aria-label="Наверх">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+</a>
+
+<!-- Модальное окно с формой -->
+<div class="modal" id="callbackModal">
+    <div class="modal__overlay" id="modalOverlay"></div>
+    <div class="modal__content">
+        <button class="modal__close" id="modalClose">&times;</button>
+
+        <!-- Форма (показывается сначала) -->
+        <div class="modal__form" id="modalForm">
+            <h3 class="modal__title">Заказать звонок</h3>
+            <p class="modal__subtitle">Оставьте ваши контакты, и мы свяжемся с вами в ближайшее время</p>
+
+            <form id="callbackForm">
+                <div class="modal__field">
+                    <input type="text" class="modal__input" id="nameInput" placeholder="Ваше имя" required>
+                </div>
+                <div class="modal__field">
+                    <input type="tel" class="modal__input" id="phoneInput" placeholder="+7 (___) ___-__-__" required>
+                </div>
+                <button type="submit" class="modal__submit">Отправить</button>
+            </form>
+
+            <p class="modal__policy">Нажимая на кнопку, вы даете согласие на обработку персональных данных</p>
+        </div>
+
+        <!-- Сообщение об успехе (показывается после отправки) -->
+        <div class="modal__success" id="modalSuccess" style="display: none;">
+            <div class="modal__success-icon">✓</div>
+            <h3 class="modal__title">Спасибо!</h3>
+            <p class="modal__subtitle">Наш менеджер свяжется с вами в ближайшее время</p>
+            <button class="modal__success-btn" id="successClose">Закрыть</button>
+        </div>
+    </div>
+</div>
+
+<!-- Скрипт -->
+<script src="script.js"></script>
+</body>
+</html>
